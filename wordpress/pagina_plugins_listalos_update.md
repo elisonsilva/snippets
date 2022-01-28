@@ -2,7 +2,9 @@
 Na página de plugins no Admin, lista no console os plugins e quais versões serão atualizado.
 *Obs.: console do navegador
 
+[console.save()](/javascript/console_save.md)
 ``` javascript
+    
     pluginslist = {};
     jQuery('.wp-list-table.plugins tbody tr').each(function( index ) {
         var _this = jQuery(this);
